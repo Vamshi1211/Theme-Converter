@@ -1,0 +1,48 @@
+.light-theme-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.light-theme-home-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 36px;
+}
+@media screen and (min-width: 768px) {
+  .light-theme-home-heading {
+    font-size: 40px;
+  }
+}
+
+.home-image {
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .home-image {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.dark-theme-home-container {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.dark-theme-home-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 36px;
+}
+@media screen and (min-width: 768px) {
+  .dark-theme-home-heading {
+    font-size: 40px;
+  }
+}
